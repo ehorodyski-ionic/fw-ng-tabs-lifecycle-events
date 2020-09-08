@@ -1,0 +1,30 @@
+<ion-app>
+  <ion-split-pane contentId="main">
+    <ion-menu contentId="main">
+      <ion-list lines="none">
+        <ion-menu-toggle>
+          <ion-item routerLink="/tabs/alpha" [detail]="true">
+            <ion-label>
+              Alpha
+            </ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+        <ion-menu-toggle>
+          <ion-item routerLink="/tabs/bravo" [detail]="true">
+            <ion-label>
+              Bravo
+            </ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+        <ion-menu-toggle>
+          <ion-item routerLink="/other/charlie" [detail]="true">
+            <ion-label>
+              Charlie
+            </ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+      </ion-list>
+    </ion-menu>
+    <ion-router-outlet id="main"></ion-router-outlet>
+  </ion-split-pane>
+</ion-app>
