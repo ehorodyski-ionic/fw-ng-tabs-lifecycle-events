@@ -7,18 +7,18 @@ import { Component } from '@angular/core';
 })
 export class AlphaPage {
   ionViewWillEnter(): void {
-    console.warn('AlphaPage#ionViewWillEnter');
+    console.warn('AlphaPage.ionViewWillEnter');
   }
 
   ionViewDidEnter(): void {
-    console.warn('AlphaPage#ionViewDidEnter');
+    console.warn('AlphaPage.ionViewDidEnter');
   }
 
   ionViewWillLeave(): void {
-    console.warn('AlphaPage#ionViewWillLeave');
+    console.warn('AlphaPage.ionViewWillLeave');
   }
 
   ionViewDidLeave(): void {
-    console.warn('AlphaPage#ionViewDidLeave');
+    console.warn('AlphaPage.ionViewDidLeave');
   }
 }

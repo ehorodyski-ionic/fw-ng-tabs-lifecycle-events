@@ -7,18 +7,18 @@ import { Component } from '@angular/core';
 })
 export class CharliePage {
   ionViewWillEnter(): void {
-    console.warn('CharliePage#ionViewWillEnter');
+    console.warn('CharliePage.ionViewWillEnter');
   }
 
   ionViewDidEnter(): void {
-    console.warn('CharliePage#ionViewDidEnter');
+    console.warn('CharliePage.ionViewDidEnter');
   }
 
   ionViewWillLeave(): void {
-    console.warn('CharliePage#ionViewWillLeave');
+    console.warn('CharliePage.ionViewWillLeave');
   }
 
   ionViewDidLeave(): void {
-    console.warn('CharliePage#ionViewDidLeave');
+    console.warn('CharliePage.ionViewDidLeave');
   }
 }

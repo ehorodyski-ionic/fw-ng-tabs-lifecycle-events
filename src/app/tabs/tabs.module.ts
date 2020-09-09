@@ -17,6 +17,10 @@ const routes: Routes = [
         path: 'bravo',
         loadChildren: () => import('./bravo/bravo.module').then(m => m.BravoPageModule),
       },
+      {
+        path: 'charlie',
+        loadChildren: () => import('./charlie/charlie.module').then(m => m.CharliePageModule),
+      },
     ],
   },
 ];

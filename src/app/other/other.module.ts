@@ -5,8 +5,12 @@ import { IonicModule } from '@ionic/angular';
 
 const routes: Routes = [
   {
-    path: 'charlie',
-    loadChildren: () => import('./charlie/charlie.module').then(m => m.CharliePageModule),
+    path: 'delta',
+    loadChildren: () => import('./delta/delta.module').then(m => m.DeltaPageModule),
+  },
+  {
+    path: 'echo',
+    loadChildren: () => import('./echo/echo.module').then(m => m.EchoPageModule),
   },
 ];
 

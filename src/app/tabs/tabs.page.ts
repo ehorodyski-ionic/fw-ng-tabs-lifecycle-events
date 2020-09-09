@@ -10,7 +10,7 @@ export class TabsPage {
   private tabRef?: HTMLElement = null;
 
   private propagateToTab(name: string): void {
-    console.warn(`TabsPage#${name}`);
+    console.warn(`TabsPage.${name}`);
     if (this.tabRef) {
       this.tabRef.dispatchEvent(new CustomEvent(name));
     }
@@ -33,7 +33,7 @@ export class TabsPage {
   }
 
   onTabDidChange(tabsRef: IonTabs): void {
-    console.warn('TabsPage#onTabDidChange', tabsRef.outlet.activatedView.element);
+    console.warn('TabsPage.onTabDidChange', tabsRef.outlet.activatedView.element);
     this.tabRef = tabsRef.outlet.activatedView.element;
   }
 }

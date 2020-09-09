@@ -17,7 +17,7 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: '/other/charlie',
+    redirectTo: '/other/delta',
     pathMatch: 'full',
   },
 ];

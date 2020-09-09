@@ -7,18 +7,18 @@ import { Component } from '@angular/core';
 })
 export class BravoPage {
   ionViewWillEnter(): void {
-    console.warn('BravoPage#ionViewWillEnter');
+    console.warn('BravoPage.ionViewWillEnter');
   }
 
   ionViewDidEnter(): void {
-    console.warn('BravoPage#ionViewDidEnter');
+    console.warn('BravoPage.ionViewDidEnter');
   }
 
   ionViewWillLeave(): void {
-    console.warn('BravoPage#ionViewWillLeave');
+    console.warn('BravoPage.ionViewWillLeave');
   }
 
   ionViewDidLeave(): void {
-    console.warn('BravoPage#ionViewDidLeave');
+    console.warn('BravoPage.ionViewDidLeave');
   }
 }
